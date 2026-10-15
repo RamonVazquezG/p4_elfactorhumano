@@ -20,10 +20,10 @@ export function MainMenuScreen({ onStart, ticketsToSurvive }: MainMenuScreenProp
         </span>
 
         <h1 className="text-5xl font-black tracking-tight text-white sm:text-6xl">
-          Legacy Overtime
+          FIVE NIGHT'S AT CHAMBA
         </h1>
         <p className="mt-3 text-xl font-medium text-slate-300 sm:text-2xl">
-          El Protocolo de Sustitución
+          El Factor Humano
         </p>
 
         <p className="mt-8 max-w-lg leading-relaxed text-slate-400">
@@ -47,7 +47,7 @@ export function MainMenuScreen({ onStart, ticketsToSurvive }: MainMenuScreenProp
           </li>
         </ul>
         <p className="mt-4 text-sm text-slate-500">
-          Resuelve {ticketsToSurvive} tickets para completar la transición. Los tickets
+          Resuelve <span className="font-semibold text-emerald-300">{ticketsToSurvive}</span> tickets para completar la transición. Los tickets
           demorados aumentan tu riesgo de despido.
         </p>
 
